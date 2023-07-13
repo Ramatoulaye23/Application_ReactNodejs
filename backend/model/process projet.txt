@@ -1,0 +1,19 @@
+dossier projet mern
+dossier backend
+=>faire npm init
+ajouter type module dans json
+=>npm install express bcrypt jsonwebtoken mongoose nodemon
+crer index.js
+dans index.js=> 
+import express fromm expresslet app=express()
+import mongoose
+let port =5000
+app.listen(port,()=>consol.log('le serveur tourne bien sur le port ${port}))
+variable d'environnement:appeler fichier env=> exemple le port et la cle
+installation npm init dotenv cree dans node_module
+dans .env mettre 
+MongoDB_URI=ramatoulayefainke:Almamyabsetou@cluster0.4sfbgah.mongodb.net/BDD: appeller un element de .env=> 
+processe.env.MongoDB_URI
+port=5000// NB : pour appeler un element dans le .env: on met =>processe.env.port
+dans backend 
+fichier
